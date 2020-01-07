@@ -13,7 +13,7 @@ pipeline {
                  }
                  stage('Three') {
                  steps {
-                       sh 'python3 pysy.py'
+                       sh 'python pysy.py'
                  }
               }
          }
